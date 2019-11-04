@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	  font-family: "Courier New", monospace;
+}
+
+.form-control {
+	  color: black!important
+}
+
+.form-group {
+    margin-bottom: 2px!important
+}
+
+.home-logos{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px
+}
+
+.percentage-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+.percentage-sign {
+    font-size: 20px;
+}
+.percentage-container {
+    text-align: center;
+}
+/* .percentage-container:first-child {
+    padding-bottom: 3em;
+} */
+
+.teammate:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.teammate h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    padding-top: 17px;
+    margin: 0;
+}
+.teammate p {
+    margin: 0;
+    font-size: .7em;
+}
+.teammate img {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.mate-info {
+    display: inline-block;
+    vertical-align: top;
+}
+.panelbar-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.piedock1 {
+    background-color: #3A3F44;
+    height: 260px;
+    border-radius: 12px 0px 12px 12px;
+}
+
+.piedock1list {
+    background-color: #3A3F44;
+    height: 130px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.piedock2 {
+    background-color: #32363b;
+    height: 260px;
+    border-radius: 12px 12px 12px 0px;
+}
+
+.piedock2list {
+    background-color: #32363b;
+    height: 130px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+
+.div-table {
+    display: table;
+    width: 250px;
+}
+.div-table-row {
+    display: table-row;
+    clear: both;
+}
+.div-table-col {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+}
+
+.div-tablebc {
+    display: table;
+    width: 800px;
+}
+.div-tablebc-row {
+    display: table-row;
+    clear: both;
+}
+.div-tablebc-col {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+}
+
+
+.div-bctable {
+    background-color: #33383c;
+    height: 150px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+#thpanel {
+    padding: 8px 5px 8px 5px !important;
+}
+#tdpanel {
+    padding: 8px 5px 8px 5px !important;
+}

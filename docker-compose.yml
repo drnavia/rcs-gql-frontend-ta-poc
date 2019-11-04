@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  rcs-front-react:
+    build: .
+    image: rcs-gql-frontreact:poc
+    container_name: rcs-gql-frontend
+    ports:
+      - 3003:3003
+    restart: always
+    volumes:
+      - "./src:/app/src"
+      - "./public:/app/public"
+    networks:
+      - poc-rcs
+networks:
+  poc-rcs:
+    name: poc-rcs
+    external: true
